@@ -1,0 +1,35 @@
+<html>  
+<head>  
+    <title>upload</title>
+    
+    <style>
+        #input1{
+            padding: 10px;
+            margin-left: 40%;
+            margin-bottom:30px ;
+            background-color: lightseagreen;
+            border-radius: 5px;
+            border-color: black;
+            border-width: 5px;
+            border: solid;
+        }
+
+        #input2{
+            padding: 10px;
+            margin-left: 46%;
+            background-color: antiquewhite;
+            border-radius: 5px;
+            border-color: black;
+            border-width: 5px;
+            width: 100px;
+        }
+    </style>
+</head>  
+<body>  
+    <form action = "/success" method = "post" enctype="multipart/form-data">  
+        <input type="file" name="file" id='input1'>
+        <br>  
+        <input type = "submit" value="Upload" id='input2'>  
+    </form>  
+</body>  
+</html>
